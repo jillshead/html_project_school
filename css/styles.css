@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: #333;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #4CAF50;
+    color: #fff;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#box {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    background-color: #2196F3;
+    line-height: 200px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 4px;
+    opacity: 1; /* 默认显示 */
+    transition: opacity 0.5s ease;  /* 过渡效果 */
+}
+
+.hidden {
+    opacity: 0; /* 隐藏时的淡出效果 */
+}
+
+input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+canvas {
+    display: block;
+    background-color: #fff;
+    border: 1px solid #000;
+}
